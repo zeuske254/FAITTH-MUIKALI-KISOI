@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body class="background">
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <section class="firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big">Welcome to My Website</h1>
+                <p class="text-small">Your description here.</p>
+                <button class="btn">Learn More</button>
+                <button class="btn btn-dark">Get Started</button>
+            </div>
+            <div class="secondHalf">
+                <img src="img/profile.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+    <footer class="text-footer">
+        &copy; 2024 My Website. All rights reserved.
+    </footer>
+</body>
+</html>
